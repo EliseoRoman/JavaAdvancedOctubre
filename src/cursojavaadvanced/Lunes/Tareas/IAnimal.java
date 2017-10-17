@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursojavaadvanced.Lunes;
+package cursojavaadvanced.Lunes.Tareas;
 
 /**
  *
  * @author Roman
  */
-public class Tarea {
+public interface IAnimal {
     
-    
+    public void comunicarse();  
     
 }
