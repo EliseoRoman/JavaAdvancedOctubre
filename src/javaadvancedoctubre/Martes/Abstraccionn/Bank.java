@@ -1,6 +1,4 @@
-
 package javaadvancedoctubre.Martes.Abstraccionn;
-
 
 abstract class Bank {
     abstract float getRateOfInterest();
