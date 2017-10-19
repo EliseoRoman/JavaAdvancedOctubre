@@ -1,15 +1,20 @@
 package javaadvancedoctubre.concierto;
 
-public class Shakira extends Acciones{
+public class Shakira implements AccionesArtista{
 
-    void cantar() {
-        
+    @Override
+    public void cantar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    void presentar() {
-        
+
+    @Override
+    public void presenta() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    void perfil() {
-        
+
+    @Override
+    public void perfil() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
 }

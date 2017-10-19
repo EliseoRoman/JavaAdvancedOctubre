@@ -5,19 +5,23 @@
  */
 package javaadvancedoctubre.concierto;
 
-import javaadvancedoctubre.concierto.LoadAudio;
+public class Maluma implements AccionesArtista{
 
-public class Maluma extends Acciones{
+    @Override
+    public void cantar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void presenta() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void perfil() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
-    void cantar() {
-        new LoadAudio("/javaadvancedoctubre/Lunes/Tareas/audio1.wav");
-    }
-    void presentar() {
-        new LoadImageApp("meme_pc.jpg");
-    }
-
-    void perfil() {
-        
-    }
+  
     
 }

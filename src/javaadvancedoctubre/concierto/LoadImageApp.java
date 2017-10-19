@@ -33,7 +33,7 @@ public class LoadImageApp extends Component {
            return new Dimension(img.getWidth(null), img.getHeight(null));
        }
     }
-    
+    /*
     public static void main(String[] args) {
         JFrame f = new JFrame("Load Image Sample");
         String image = "meme_pc.jpg";
@@ -46,5 +46,5 @@ public class LoadImageApp extends Component {
         f.add(new LoadImageApp(image));        
         f.pack();
         f.setVisible(true);
-    }
+    }*/
 }
