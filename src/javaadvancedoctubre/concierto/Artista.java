@@ -8,9 +8,11 @@ public class Artista {
     public Artista() {
     }
     
-    public Artista(String nombre, String genero) {
+    public Artista(String nombre, String nacionalidad, String genero, int edad) {
         this.nombre = nombre;
+        this.nacionalidad = nacionalidad;
         this.genero = genero;
+        this.edad = edad;
     }
 
     public String getNombre() {

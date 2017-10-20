@@ -1,0 +1,5 @@
+Ricky se presenta
+Nombre: Ricky
+Edad: 41
+Nacionalidad: Estadounidense
+Genero: Pop
